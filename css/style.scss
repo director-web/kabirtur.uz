@@ -338,9 +338,10 @@
 
 .plan__content {
     height: 110vh;
+    display: flex;
 
-    @media (max-width: 991px) {
-
+    @media (max-width: 992px) {
+        flex-direction: column !important;
         margin-top: 100px;
     }
 
@@ -349,7 +350,7 @@
         font-family: 'mont';
         font-weight: 700;
 
-        @media (max-width: 991px) {
+        @media (max-width: 992px) {
             text-align: center;
         }
     }
@@ -360,21 +361,20 @@
         font-size: 20px;
         opacity: .7;
 
-        @media (max-width: 991px) {
+        @media (max-width: 992px) {
             text-align: center;
         }
     }
 
     .plan__child1 {
 
-        @media (max-width: 991px) {
+        @media (max-width: 992px) {
             align-items: center !important;
         }
     }
 
     .plan__child2 {
-
-        @media (max-width: 991px) {
+        @media (max-width: 992px) {
             justify-content: center !important;
         }
     }
@@ -509,7 +509,7 @@
 .about {
     position: relative;
 
-    @media (max-width: 991px) {
+    @media (max-width: 992px) {
         margin-top: 200px;
     }
 }
@@ -534,6 +534,7 @@
     @media (max-width: 950px) {
         width: 600px;
         left: 18%;
+        margin-top: 50px;
     }
 
     @media (max-width: 800px) {
@@ -548,6 +549,7 @@
 
     @media (max-width: 510px) {
         left: 10%;
+        margin-top: 80px;
     }
 
     @media (max-width: 454px) {
